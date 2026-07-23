@@ -21,17 +21,6 @@ SmartRouterAI is an AI-powered routing framework that intelligently analyzes use
 - 💾 Self-learning memory for smarter routing
 
 ---
-
-## 🏗️ System Architecture
-
-The workflow of SmartRouterAI is shown below.
-
-<p align="center">
-  <img src="images/architecture.png" width="800"/>
-</p>
-
----
-
 ## 🔄 Workflow
 
 ### 1. User Prompt
