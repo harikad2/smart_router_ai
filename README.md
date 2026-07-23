@@ -27,7 +27,8 @@ SmartRouterAI is an AI-powered routing framework that intelligently analyzes use
 The workflow of SmartRouterAI is shown below.
 
 <p align="center">
-  <img src="images/architecture.png" width="800"/>
+  <img src="<img width="612" height="1002" alt="WhatsApp Image 2026-07-23 at 23 11 43" src="https://github.com/user-attachments/assets/92a498e5-cf0a-4fab-97fd-53ccfe161def" />
+" width="800"/>
 </p>
 
 ---
