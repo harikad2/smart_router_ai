@@ -1,0 +1,174 @@
+/* ── Segment execution cards ───────────────────────────────────────── */
+.seg-ex-wrap {
+  padding: 16px 20px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  flex-shrink: 0;
+}
+
+.seg-ex-title {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.62rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin: 0 0 14px;
+  font-weight: 600;
+}
+
+.seg-ex-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.seg-card {
+  background: rgba(30, 30, 35, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+
+.seg-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.seg-card-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #f3f4f6;
+  line-height: 1.35;
+  flex: 1;
+  min-width: 0;
+}
+
+.seg-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+.seg-tag-outline {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #9ca3af;
+  text-transform: uppercase;
+}
+
+.seg-tag-fill {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.58rem;
+  text-transform: lowercase;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+
+.seg-cx-simple {
+  background: rgba(74, 222, 128, 0.12);
+  color: #86efac;
+  border-color: rgba(74, 222, 128, 0.25);
+}
+
+.seg-cx-medium {
+  background: rgba(250, 204, 21, 0.12);
+  color: #fde047;
+  border-color: rgba(250, 204, 21, 0.3);
+}
+
+.seg-cx-complex {
+  background: rgba(234, 179, 8, 0.15);
+  color: #facc15;
+  border-color: rgba(234, 179, 8, 0.35);
+}
+
+.seg-model-line {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.68rem;
+  color: #6b7280;
+  margin: 0 0 14px;
+  line-height: 1.5;
+}
+
+.seg-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 520px) {
+  .seg-metrics {
+    grid-template-columns: 1fr;
+  }
+}
+
+.seg-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.seg-metric-lbl {
+  font-size: 0.65rem;
+  color: #6b7280;
+  text-transform: capitalize;
+}
+
+.seg-metric-val {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.seg-latency {
+  color: #fbbf24;
+}
+
+.seg-cost {
+  color: #f3f4f6;
+}
+
+.seg-quality {
+  color: #4ade80;
+}
+
+.seg-bar-track {
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.seg-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+  transition: width 0.35s ease;
+}
+
+.seg-footer {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.62rem;
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.seg-footer-dot {
+  margin: 0 4px;
+  opacity: 0.5;
+}

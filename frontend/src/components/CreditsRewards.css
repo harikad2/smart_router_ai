@@ -1,0 +1,74 @@
+/* ── Credits & rewards ───────────────────────────────────────────── */
+.cr-wrap {
+  padding: 16px 20px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.cr-title {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.62rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin: 0 0 14px;
+  font-weight: 600;
+}
+
+.cr-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.cr-card {
+  background: #262626;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+
+.cr-card-h {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #f3f4f6;
+  margin-bottom: 8px;
+}
+
+.cr-card-val {
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #f3f4f6;
+  line-height: 1.1;
+}
+
+.cr-val-green {
+  color: #76c750;
+}
+
+.cr-card-sub {
+  font-size: 0.72rem;
+  color: #9ca3af;
+  margin-top: 6px;
+}
+
+.cr-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+
+.cr-badge {
+  font-size: 0.78rem;
+  color: #a3a3a3;
+  padding: 4px 0;
+}
+
+@media (max-width: 480px) {
+  .cr-cards {
+    grid-template-columns: 1fr;
+  }
+}

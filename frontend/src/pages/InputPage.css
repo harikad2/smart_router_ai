@@ -1,0 +1,53 @@
+/* ── Input Page ───────────────────────────────────────────────────── */
+.input-page {
+  min-height: 100vh;
+  background: #0B0F1A;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.page-grid {
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0,229,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,229,255,0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  mask-image: radial-gradient(ellipse 100% 100% at 50% 0%, black 20%, transparent 80%);
+  pointer-events: none;
+}
+
+.page-orb {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(100px);
+  pointer-events: none;
+  z-index: 0;
+}
+.page-orb-1 { width: 500px; height: 500px; background: rgba(0,229,255,0.05); top: -200px; right: -100px; }
+.page-orb-2 { width: 400px; height: 400px; background: rgba(124,58,237,0.06); bottom: -100px; left: -100px; }
+
+.page-main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 20px;
+  padding: 20px 28px 28px;
+  position: relative;
+  z-index: 1;
+  min-height: 0;
+  height: calc(100vh - 64px);
+  max-height: calc(100vh - 64px);
+  align-items: stretch;
+}
+
+@media (max-width: 900px) {
+  .page-main {
+    grid-template-columns: 1fr;
+    height: auto;
+    max-height: none;
+    min-height: min-content;
+  }
+}
