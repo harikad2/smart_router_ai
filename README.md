@@ -37,7 +37,6 @@ The workflow of SmartRouterAI is shown below.
 ### 1. User Prompt
 The user submits a natural language query.
 
-↓
 
 ### 2. LLM Prompt Analyzer
 The prompt is analyzed using **Llama-3.3-70B**.
@@ -47,7 +46,6 @@ It performs:
 - Segment Splitting
 - Task Type Detection
 
-↓
 
 ### 3. Decision Engine
 
@@ -59,7 +57,6 @@ Based on the analysis, the Decision Engine determines:
 
 The engine also consults the self-learning memory to improve future routing decisions.
 
-↓
 
 ### 4. Parameter Tuner
 
@@ -71,7 +68,6 @@ Examples include:
 - Top-p
 - Maximum Tokens
 
-↓
 
 ### 5. Parallel Multi-Model Execution
 
@@ -84,13 +80,11 @@ Supported Models:
 - GPT-OSS-120B
 - Qwen-3-32B
 
-↓
 
 ### 6. Response Combiner
 
 Responses from different models are intelligently merged into a single optimized response.
 
-↓
 
 ### 7. Metrics & Reward System
 
@@ -107,7 +101,6 @@ Users can earn:
 - Badges
 - Performance rewards
 
-↓
 
 ### 8. Final Response
 
