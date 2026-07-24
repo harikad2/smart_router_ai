@@ -1,6 +1,6 @@
 # 🚀 SmartRouterAI
 
-> An Intelligent Multi-LLM Routing and Response Optimization Platform
+> A Dynamic Multi-LLM Routing and Response Optimization Platform
 
 SmartRouterAI is an AI-powered routing framework that intelligently analyzes user prompts and dynamically selects the most suitable Large Language Models (LLMs) for execution. Instead of relying on a single model, SmartRouterAI performs prompt analysis, parallel multi-model inference, response aggregation, and adaptive parameter tuning to deliver high-quality, cost-efficient, and low-latency AI responses.
 
